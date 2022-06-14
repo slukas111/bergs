@@ -1,0 +1,265 @@
+body {
+    font-family: courier, monospace;
+  }
+  
+  header {display: flex;
+      justify-content: space-between;
+    align-items: center;
+      margin-left: 0;
+  }
+  
+  #branding{
+    width: 100%;
+    margin-bottom: 30px;
+      }
+  
+  #branding a{
+      text-decoration: none;
+      color: #b7472a;
+      font-size:300%;
+      font-weight: 600;
+      font-family: "Ma Shan Zheng", monospace;
+    margin-left: 2%;
+      
+  }
+  
+   /*NAVIGATION MENU*/
+  
+    .container{
+    z-index: 1;
+    background:#fff;
+    width: 100%;
+    }
+    .cont {
+      width:100%;
+      background:#FFF;
+      margin:0px auto;
+      padding:0px;
+      height:75px;
+    }
+  
+    ul {
+      list-style: none; /*NO BULLETS*/
+      display: flex;
+      position: relative; /*so the first submenu can be positioned within the main menu*/
+    }
+  
+    ul li {width: 25%;
+    text-align: center;}
+    
+    ul ul {
+      display: none;
+      /* Don't display submenu until hover of the li element */
+      position: absolute;
+      top: 100%;
+      /* Position the submenu at the bottom of the main menu */
+      padding: 0;
+      margin: 0;
+      width: 1350px;
+      text-align: center;
+      }
+    
+    
+    ul ul li {
+      float: none;
+      /* Display the submenus vertically */
+      /* z-index: 4; */
+      position: relative;
+      /* So the second submenu can be positioned within the first submenu */
+      background: white;
+      padding: 0;
+      }
+    
+    ul li:hover>ul {
+      display: flex;
+      flex-direction: column;
+      /* Display the submenu on hover of the li element */
+      }
+        
+    ul::after {
+      content: "";
+      clear: both;
+      display: block;
+      } 
+  
+  
+    li {
+      display: inline;
+      float:left;
+    }
+    
+    li a{
+      display:block;
+      margin:0;
+      padding: 26px;
+      text-decoration:none;
+      color:#b7472a;
+    }
+    li a:hover{
+      background:#b7472a;
+      color:#fff;
+    }
+    
+    /*==================================================
+     * Shadow effects
+     * ===============================================*/
+    
+    .shadow
+    {
+        position:relative;       
+    
+    }
+    .shadow:before, .shadow:after
+    {
+      content:"";
+        position: absolute; 
+        z-index: -1;
+        -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+        -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+        box-shadow:0 0 20px rgba(0,0,0,0.8);
+        top:0;
+        bottom:0;
+        left:10px;
+        right:10px;
+        -moz-border-radius:200px / 20px;
+        border-radius:200px / 20px;
+    } 
+    .shadow:after
+    {
+      right:20px; 
+        left:auto;
+        -webkit-transform:skew(8deg) rotate(3deg); 
+           -moz-transform:skew(8deg) rotate(3deg);     
+            -ms-transform:skew(8deg) rotate(3deg);     
+             -o-transform:skew(8deg) rotate(3deg); 
+                transform:skew(8deg) rotate(3deg);
+    }
+   /*END OF NAVIGATION FORMATTING*/
+  
+  .page-content {
+    line-height: 1.5;
+    text-align: center;
+
+
+  }
+  
+  .subline {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 2%;
+  
+  }
+  
+  .gallery-text {
+    font-size: 25px;
+    margin-top: 10%;
+    text-align: left;
+    margin-left: 2%;
+  }
+  
+  p a{  color: #b7472a;
+      text-decoration: underline;}
+  
+  .headline {
+    font-size: 30px;
+  }
+  
+  .body-text {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 5% 5%;
+    text-align: center;
+  }
+  
+  header li {
+    display: inline;
+    font-size: 20px;
+    padding-right: 40px;
+  }
+  
+  header ul {padding: 0;}
+  
+  a {
+    color: #b7472a;
+    text-decoration: none;
+  }
+  
+  #topnav a:hover {
+    color: #000000;
+  }
+  
+  
+  .tagline {
+    color: #b7472a;
+    font-size: 25px;
+  }
+  
+  footer{
+    background:#fff;
+    width: 100%;
+    margin:0px auto;
+    padding:0px;
+    height:75px;
+      display: flex;
+      justify-content: center;
+    color: #b7472a;
+  }
+  
+  .intro {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .item {
+    display: inline;
+  }
+  
+  img {
+    width: 350px;
+    height: 250px;
+  }
+  
+  
+  /*MENU-PAGE CSS */
+  
+  h3 {
+    font-size: 200%;
+  }
+  
+  .boxes {
+    width: auto;
+    
+  }
+  
+  .box {
+    position: relative;
+    float: right;
+    width: 70%;
+    height: 300px;
+    margin-bottom: 5px;
+    background: #b7472a;
+    overflow-y: scroll;
+    color: white;
+  }
+  
+  
+  .aside {float: left;
+  width: 30%;
+  margin-bottom: 5px;
+  background: grey;}
+  
+  input {text-align: left;}
+  
+  .quantity {background: #eaeaea;
+    border-radius: 7px;}
+  
+  #name {background: #eaeaea;
+    border-radius: 7px;}
+  
+  #reset {background: #eaeaea;
+    border-radius: 7px;}
+  
+  #submit {background: #eaeaea;
+    border-radius: 7px;}
+  
