@@ -151,6 +151,9 @@ body {background: #12244E;
 	text-align: center;
 	margin-top: 50px;
 	height: 375px;
+	position: relative;
+	min-height: 70vh;
+  }
   }
 
   .subline { /*BURGERS AND MORE ON HOME PAGE*/
@@ -211,8 +214,8 @@ body {background: #12244E;
 	margin:0px auto;
 	padding:0px;
 	height:75px;
-	  display: flex;
-	  justify-content: center;
+	display: flex;
+	justify-content: center;
 	color: #4A8276; /*FOOTER FONT COLOR*/
   }
   
