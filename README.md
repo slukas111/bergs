@@ -58,9 +58,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## TEAM MEMBERS
-* [UI Design] Mika Laurensen
+* [UI Design & Accessibility] Mika Laurensen
 * [Project Management] Jerod Williams
-* [ Lead] Chad Skillman
+* [Coding Lead] Chad Skillman
 * [Scrum Master] Sasha Lukas
 
 
