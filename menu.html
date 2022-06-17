@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+    Testing out things without ruining what I already have
+-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet">
+	<title>BURG'S MENU</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="branding">
+    <a href="index.html">BURG'S BURGERS</a>
+</div>
+<header>
+
+<nav class="container">
+<ul class="shadow cont">
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="menu.html">MENU</a></li>
+  <li><a href="location.html">LOCATIONS</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+        </header>
+          <div class="page-content" >
+            <h1>THE MENU - ORDER HERE</h1>
+            <div class="aside"><img id="pic" src="https://i.pinimg.com/564x/34/70/6f/34706f76f4cbfafd003169dd680b8421.jpg" alt="Ad"></div> <!--THIS IS WHERE I'D LIKE THE ART OR WHATEVER TO GO-->
+            <form method = "GET" action="MENU-GET-proc.php">
+           
+            
+            <div class="boxes">
+
+              <div class="box">
+                <h3>
+                  BURGERS + SANDWICHES
+                </h3>
+
+                <b>Classic Cheese Burger - $10.00</b> <br/> With tomato, lettuce, onions, mayo and sweet pickle relish. Choice of Swiss, cheddar or American.<br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="ccbu" min="0" max="99">
+                <br/>
+
+                <br/><b>BLT - $12.00</b> <br/> Crispy thick sliced bacon served on toasted wheat bread with sprouts, lettuce, tomatoes and mayo. <br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="blto" min="0" max="99">
+                <br/><br/>
+                
+                <b>Prime Rib Dip - $15.00</b> <br/> House-roasted, thinly sliced prime rib on a French roll with au jus and horseradish sauce.<br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="prdi" min="0" max="99">
+                <br/><br/>
+                 
+                <b>Maui Burger - $16.00</b> <br/> Topped with house-made honey-teriyaki sauce, thin sliced pit ham, Tillamook cheddar cheese, charbroiled pineapple ring, mayo, onion, butter lettuce and tomato.<br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="maui" min="0" max="99">
+                <br/><br/>
+                               
+                <b>Bacon Classic Cheese Burger - $12.00</b> <br/> With tomato, lettuce, onions, mayo and sweet pickle relish. Choice of Swiss, cheddar or American.<br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="bccb" min="0" max="99">
+                <br/><br/>
+            
+                <b>Reuben - $15.00</b> <br/> House-roasted corned brisket of beef on rye bread with sauerkraut, melted Swiss, pickles and 1000 island dressing. Served with horseradish sauce on the side.<br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="reub" min="0" max="99">
+               <br/><br/>
+              </div>
+
+              <div class="box">
+                <h3>
+                  SIDES + APPETIZERS
+                </h3>
+
+                <b>Onion Rings - $10.00</b> <br/> Beer battered and fried to a golden brown.<br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="onri" min="0" max="99">
+                <br/><br/>
+
+                <b>POUND O’ FRIES - $5.00</b> <br/> Regular fries served with our house-made tartar sauce. <br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="pofs" min="0" max="99">
+               <br/><br/>
+
+                <b>Nachos - $12.00</b> <br/> Fresh tortilla chips, a blend of cheeses, jalapeños, black bean dip, black olives, tomatoes and green onions. Served with sour cream & fresh salsa.<br/>
+                
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="nach" min="0" max="99">
+                <br/><br/>
+
+                <b>Side Salad - $5.00</b> <br/> Just the right size to accompany your meal.<br/>
+                
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="sala" min="0" max="99">
+                <br/><br/>
+
+                <b>Bowl of Chili - $6</b> <br/> House made chili.<br/>
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="boch" min="0" max="99">
+                <br/><br/>
+
+                <b>Cornbread - $6.00</b> <br/> Two pieces of our freshly made cornbread with honey and butter on the side. <br/>
+                
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" class="quantity" name="crnb" min="0" max="99">
+                <br/><br/>
+
+              </div>
+
+                <div class="box">
+                <h3>
+                 Submit Order Here
+                </h3>
+                <p><b>CUSTOMER NAME</b></p>
+                <input id="name" type="text" name= "name" placeholder="Name Here"> 
+                <input id="reset" type="reset" name="reset" value="Reset"/>
+                <input id="submit" type="submit" value="Submit Your Order">
+              </div>
+              </div>
+              </form>
+            </div>
+            <footer class="shadow cont">
+            <p>YELLOW TEAM &copy; 2022</p>
+        </footer>
+</body>
+</html>
