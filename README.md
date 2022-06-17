@@ -58,10 +58,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## TEAM MEMBERS
-[UI Design] Mika Laurensen
-[Project Management] Jerod Williams
-[ Lead] Chad Skillman
-[Scrum Master] Sasha Lukas
+* [UI Design] Mika Laurensen
+* [Project Management] Jerod Williams
+* [ Lead] Chad Skillman
+* [Scrum Master] Sasha Lukas
 
 
 
@@ -97,12 +97,13 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 - [x] CSS template
 - [x] Create a Navigate Bar
-- [ ] Make a drop down menu for locations
-- [ ] Create README 
-- [ ] Create visual Gallery for visitors 
-- [ ] PHP simple project programming
-    - [ ] Menu Order
-    - [ ] Contact
+- [x] Make a drop down menu for locations
+- [x] Create README 
+- [x] Create visual Gallery for visitors 
+- [x] PHP simple project programming
+    - [x] Menu Order
+    - [x] Contact
+- [x] Create Contact Validation
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
