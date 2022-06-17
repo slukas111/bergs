@@ -1,3 +1,4 @@
+
 /*CSS CREATED BY MIKA*/
 body {background: #12244E;
 	color: #FDDEAF;
@@ -143,9 +144,15 @@ body {background: #12244E;
 	line-height: 1.5;
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 50px;
   }
   
+  .location-content {
+	line-height: 1.5;
+	text-align: center;
+	margin-top: 50px;
+	height: 375px;
+  }
+
   .subline { /*BURGERS AND MORE ON HOME PAGE*/
 	width: 100%;
 	text-align: center;
@@ -161,7 +168,7 @@ body {background: #12244E;
 	margin-left: 2%;
   }
   
-  p a{  color: #4A8276; /*COLOR OF LINKED WORDS IN HOME PAGE DESCRIPTION*/
+  p a{  color: #81e0cc; /*COLOR OF LINKED WORDS IN HOME PAGE DESCRIPTION    #4A8276*/
 	  text-decoration: underline;}
   
   .headline { /*Your Family-Owned Neighborhood Eatery Since 1996*/
@@ -272,3 +279,102 @@ body {background: #12244E;
 	pre {text-align: center;}
 
 	#price {margin-bottom: 60px;}
+
+
+	/*CONTACT FORMATTING*/
+
+
+    #map {
+		position: absolute;
+        float: left; /*THE MAP ASIDE*/
+        width: 40%;
+        height: 100%;
+        height: 550px;
+        }
+    
+    #map, h1, p {
+		padding-left: 25px;
+		}
+    
+    #form {position: relative;
+        float: right;
+        width: 60%;
+        height: 550px;
+
+    	}
+    
+    .contact-content {
+        line-height: 1.5;
+        text-align: center;
+        }
+	#user_name, #user_email, #user_subject {
+		height: 2.5em;
+		/* margin-top: -250px; */
+		cursor: pointer;
+		margin: 5px;
+	}
+
+	.entry {
+		background-color: rgba(205, 209, 228);
+		outline: none;
+		border: none;
+		cursor: pointer;
+		width: 50%;
+		border-radius: 5px;
+		margin: 15px;
+		text-align: center;
+	
+
+	}
+
+	.entry:hover{
+		background-color: rgba(250, 190, 88);
+		cursor: pointer;
+		transition: .3s;
+	}
+	
+	.btn{
+		width: 375px;
+		padding: 0.5rem 1rem;
+		font-size: 1.1rem;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		transition: .3s;
+		background: rgb(255, 255, 255);
+		border-radius: 5px;
+	} 
+	.btn:hover{
+		background-color: #485e9b;
+	}  
+
+	#error-message {
+		position: absolute;
+		background-color: rgb(184, 119, 119);
+		font-size: 16px;
+		transition: all 0.5s ease;
+        float: right;
+        width: 60%;
+		margin-left: 150px;
+		margin-top: -25px;
+
+	}
+
+	/* fav icon */
+
+	.contact-content i {
+		position: absolute;
+		color: black;
+		margin-top: 15px;
+		margin-left: 10px;
+		
+
+	}
+
+	.btn i {
+		color: rgb(44, 44, 44);
+		position: relative;
+		padding: 1px;
+	}
+
+
