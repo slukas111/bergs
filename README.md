@@ -46,17 +46,22 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [FontAwesome](https://fontawesome.com/)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [PHP](https://www.php.net/)
+* [JavaScript](https://www.javascript.com/)
+* [JSON](https://www.json.org/json-en.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-
+## TEAM MEMBERS
+[UI Design] Mika Laurensen
+[Project Management] Jerod Williams
+[ Lead] Chad Skillman
+[Scrum Master] Sasha Lukas
 
 
 
